@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üsystem</title>
+    <link rel="stylesheet" href="quemSomos.css">
+</head>
+
+<body>
+    <div class="barraTopo">
+        <a href="index.html"><img src="imag/redlogos.jpg" alt="logo da empresa"></a>
+    
+        
+
+        <div class ="burguer">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+            <ul class="menu">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="quemSomo.html">Quem somos</a></li>
+                
+            </ul>
+    </div><!--end-barraTopo-->
+
+
+        <div class="separador">
+            <div class="separadores"></div>
+        </div>
+        <p>Quem somos</p>
+        <div class ="fotosmeio">
+    
+                                <div>
+                                    <h1>Cicero Araújo</h1>
+                                    <img src="imag/cicero.jpg" alt="">
+                                    <h2>Desenvolvedor Full Stack</h2>
+                                    <div class="fotoredes">
+                                        <img src="imag/linkedin.png">
+                                        <img src="imag/gitlogo.png">
+                                    </div>
+                            
+                                    
+                                </div>
+                                
+                                <div>
+                                    <h1>Claudia Araújo</h1>
+                                    <img src="imag/claudia.jpeg" alt="">
+                                    <h2>Analista de Sistemas</h2>
+                                        <div class="fotoredes">
+                                        <img src="imag/linkedin.png">
+                                        <img src="imag/gitlogo.png">
+                                        </div>
+                                </div>
+                                
+                            
+                                <div>
+                                <h1>Robinson Assis</h1>
+                                <img src="imag/robinson.jpg" alt="">
+                                <h2> Administrador DBA</h2> 
+                                    <div class="fotoredes">
+                                    <a href="https://www.linkedin.com/in/robinson-santos-de-assis-218071197/"target="_blank"><img src="imag/linkedin.png"></a>
+                                    <img src="imag/gitlogo.png">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h1>Sandoval Silva</h1>      
+                                    <img src="imag/sandoval.jpg" alt="">
+                                    <h2>Desenvolvedor Full Stack</h2>
+
+                                    <div class="fotoredes">
+                                    <a href="https://www.linkedin.com/in/sandoval-silva-6897a723b/"target="_blank"><img src="imag/linkedin.png"></a>
+                                    <a href="https://github.com/Sandoval312" target="_blank"><img src="imag/gitlogo.png"></a>
+                                    </div>    
+                                </div>
+                            </div><!--end-fotos-meio-->
+          
+        </div>
+        </div>
+
+             
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+     <script>
+        const burguer = document.querySelector('.burguer');
+        const linha1 = document.querySelector('.linha1');
+        const linha2 = document.querySelector('.linha2');
+        const linha3 = document.querySelector('.linha3');
+        const menu = document.querySelector('.menu');
+
+        burguer.addEventListener('click',function(){
+            linha1.classList.toggle('linha1-active');
+            linha2.classList.toggle('linha2-active');
+            linha3.classList.toggle('linha3-active');
+            menu.classList.toggle('exibir');
+        });
+
+     </script>
+    
+        
+
+</body>
+</html>
